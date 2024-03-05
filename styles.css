@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
+  
+  .hexagonos {
+    position: relative;
+  }
+  
+  .hexagonos img {
+    max-width: 100px;
+    display: block;
+  }
+  
+  .hexAdjacente {
+    position: absolute;
+
+  }
+  
+  .top {
+    top: -90px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+
+  .right {
+    top: -45px; 
+    left: 130px; 
+    transform: translateX(-50%); 
+  }
+
+  .left{
+    top: -45px; 
+    right: 30px; 
+    transform: translateX(-50%);
+  }
+
+  .bottom   {
+    top: -45px;
+    right: 30px;
+    transform: translateX(-50%); 
+  }
